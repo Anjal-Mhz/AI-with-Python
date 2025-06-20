@@ -1,0 +1,79 @@
+
+    TYPE OF OUTPUT THEY PREDICT
+
+1   CLASSIFICATION
+catagoize input data into predefined class or categories (discrete)
+(example yes or no,spam or not, iris data, pass or fail, predict dog or not)
+
+
+2   REGRESSION (creates relationship)
+to predict continuous numerical value based on input vairables
+(example weather_forecast, stock price,house price)
+
+Dependent variables (Y) and independent variables (X)
+Y is being predicted and X is used to predict the dependent variable
+
+Simple regression
+deals with single indepedent and depedent variables
+
+Nonlinear regression
+curve line
+
+Multiple regression
+deals with multiple X Y variables
+
+In short
+Classification is like telling them which bus to take 
+(a specific route, like "bus 10" or "bus 20").
+Regression is like telling them how much the fare will cost 
+(a numerical value, like "$2.50")
+
+
+    DIFFERENT MODELS FOR MACHINE LEARNING ALGORITHM
+
+1. DECISION TREE
+A decision tree in machine learning is a flowchart-like structure that models decision-making by branching out based on features or conditions
+Nodes : root node, internal nodes, leaf nodes
+
+2. Support Vector Machine (SVM)
+Support Vector Machines (SVMs) are a powerful set of supervised machine learning algorithms used for classification and regression
+terms: Margin, hyperplane or decision bounary, support vectors, kernel
+
+3. LOGISTIC REGRESSION
+Logistic regression is a machine learning algorithm used primarily for binary classification problems, where the goal is to predict the probability of an instance belonging to one of two classes
+
+4. LINEAR REGRESSION
+Linear regression is a supervised machine learning algorithm used to predict a continuous dependent variable based on one or more independent variables (features) by establishing a linear relationship between them
+
+
+
+        METRIC
+a metric is a quantitative measure used to evaluate the performance of a model
+
+1.Classification metric
+
+    1.Accuracy
+        (The proportion of correctly classified instances out of the total instances)
+    2.Precision:
+        Measures the accuracy of positive predictions, indicating what proportion of predicted positives are actually positive. 
+    3.Recall (Sensitivity):
+        Measures the model's ability to identify all relevant positive instances, indicating what proportion of actual positives were correctly identified. 
+    4.F1-score:
+        The harmonic mean of precision and recall, providing a balanced measure when both are important. 
+    5.Confusion matrix
+        A table showing the counts of true positive, true negative, false positive, and false negative predictions
+
+
+
+2.Regression metric
+
+    1.Mean Squared error(MSE)
+        The average of the squared differences between predicted and actual values
+    2.Root mean squared error (RMSE)
+        The square root of MSE, providing a measure in the original units of the target variable
+    3.R-squared 
+        The proportion of variance in the dependent variable that is predictable from the independent variable(s)
+
+
+
+3....there are other different metric like clustering, ranking etc

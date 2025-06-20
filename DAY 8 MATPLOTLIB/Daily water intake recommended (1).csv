@@ -1,0 +1,16 @@
+CMF,Age,water intake(L),from Beverages(L),No. of Glass
+C,1-2 Years,1.1,0.9  (82%),4
+C,2-3 Years,1.3,1      (77%),4
+C,4-8 Years,1.6,1.3   (81%),5
+
+M,9-13 Years,2.1,1.7  (91%),7
+M,Teens,2.4,2      (83%),8
+M,Adults,2.4,2      (83%),8
+M,Elderly,2.5,2      (80%),8
+
+F,9-13 Years,1.9,1.5   (79%),6
+F,Teens,2,1.6    (80%),6
+F,Adults,2,1.6    (80%),6
+F,Pregnant,2.3,2.3    (100%),9
+F,Lactating,2.7,2.2   (81%),9
+F,Elderly,2.1,1.6   (76%),6
